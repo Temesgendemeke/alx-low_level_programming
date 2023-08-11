@@ -3,8 +3,7 @@
 #include <stdio.h>
 /**
   * main - Entry point
-  *
-  * Description: 'checks if n is greater than 5, equal to 0 or less 6 and not equal to 6'
+  * Description: 'checks last digit'
   * Return: Always 0 (Success)
 */
 int main(void)
@@ -14,7 +13,8 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	int last = n % 10;
-	if(n > 5)
+
+	if (n > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, last);
 	}
