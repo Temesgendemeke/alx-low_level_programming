@@ -1,8 +1,10 @@
 #include <stdio.h>
-/*
- * main - Prints all single digit numbers of base 10
- * Return: Always 0 (success)
- */
+/**
+  * main - Entry point
+  *
+  * Description: 'prints string with newline'
+  * Return: Always 0 (Success)
+*/
 int main(void)
 {
 int num;
