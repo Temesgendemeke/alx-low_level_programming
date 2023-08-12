@@ -12,8 +12,9 @@ int n;
 n = 0;
 while (n < 10)
 {
-putchar(40 + n);
-putchar('\n');
+putchar(48 + n);
+n++;
 }
+putchar('\n');
 return (0);
 }
