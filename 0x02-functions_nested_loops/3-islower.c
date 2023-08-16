@@ -9,13 +9,13 @@
 int _isalpha(int c)
 {
 
-if (islower('c') > 0)
+if (islower(c) > 0)
 {
-_putchar(49);
+return (1);
 }
 else
 {
-_putchar(48);
+return (0);
 }
 
 }
