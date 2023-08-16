@@ -9,7 +9,7 @@
 int _isalpha(int c)
 {
 
-if (islower(c) > 0)
+if (_slower(c) > 0)
 {
 return (1);
 }
