@@ -14,14 +14,6 @@ for (h = 'a'; h <= 'z'; h++)
 {
 
 _putchar(h);
-
 }
-
-
-}
-int main(void)
-{
-    print_alphabet_x10();
-     _putchar('\n');
-    return (0);
+_putchar('\n');
 }
