@@ -1,19 +1,16 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
-  * main - Entry point
-  *
-  * Description: 'prints string with newline'
-  * Return: Always 0 (Success)
-*/
-void print_alphabet_x10(void)
-{
-char h;
+ * print_alphabet - print all alphabet in lowercase
+ */
 
-for (h = 'a'; h <= 'z'; h++)
+void print_alphabet(void)
 {
+	char l;
 
-_putchar(h);
+	for (l = 'a'; l <= 'z'; l++)
+		_putchar(l);
+
+	_putchar('\n');
 }
-_putchar('\n');
-}
+
