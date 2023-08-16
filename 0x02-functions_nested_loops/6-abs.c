@@ -2,18 +2,18 @@
 #include <stdio.h>
 /**
  * _abs - computes the absolute value of an integer
- * @int: - is number to be checked
+ * @n: - is number to be checked
  * Return: return absoulte value.
  */
-int _abs(int)
+int _abs(int n)
 {
-if (_abs() >= 0)
+if (n >= 0)
 {
-_putchar(_abs());
+return (n);
 }
-else if (_abs() < 0)
+else if (n < 0)
 {
-_ptchar(-(_abs()));
+return(-n);
 }
 
 }
