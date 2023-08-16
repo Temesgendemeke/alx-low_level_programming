@@ -8,17 +8,11 @@
 */
 void print_alphabet(void)
 {
-char abc = 'a';
+char c;
 
-for(abc = 'a'; abc <= 'z'; abc++){
-putchar(abc);
-}
-}
-
-int main(void)
+for (c = 'a'; c <= 'z'; c++)
 {
-
-print_alphabet();
-putchar('\n');
-return (0);
+_putchar(c);
+}
+_putchar('\n');
 }
