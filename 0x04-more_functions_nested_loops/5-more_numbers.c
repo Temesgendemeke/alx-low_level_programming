@@ -1,15 +1,21 @@
 #include "main.h"
-
 /**
- * main - check the code
- *
+ * more_numbers - 
  * Return: Always 0.
  */
 void more_numbers(void)
 {
-int n;
+int a, b;
 
-for (n = 0; n < 15; n+);
-
-
+for (a = 1; a <= 10; a++)
+{
+for (b = 0; b <= 14; b++)
+{
+if (b >= 10)
+_putchar('1');
+_putchar (b % 10 + '0');
+}
+_putchar('\n');
+}
+}
 }

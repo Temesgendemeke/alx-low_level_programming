@@ -5,13 +5,12 @@
  */
 void print_numbers(void)
 {
-int n;
-n = 0;
-while (n <= 9)
-{
-_putchar(48 + n);
-n++;
+	char c;
+
+	for (c = '0'; c <= '9'; c++)
+	{
+		_putchar(c);
+	}
+	_putchar('\n');
 }
-_putchar('\n');
-return (0);
 }

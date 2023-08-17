@@ -14,7 +14,7 @@ if (n == 2 || n == 4)
 continue;
 }
 _putchar(48 + n);
-n++;
+
 }
 _putchar('\n');
 }
