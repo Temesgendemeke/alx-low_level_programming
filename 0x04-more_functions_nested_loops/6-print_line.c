@@ -1,24 +1,23 @@
 #include "main.h"
 /**
- * print_line - prints '_'
- * @n : gives length of char
+ * print_line - undescore line in the terminal
+ * @n: number of times the character '_' printed
  */
 void print_line(int n)
 {
-if (n <= 0)
-{
-_putchar('\n');
-}
-else
-{
-int a;
+	if (n <= 0)
+	{
+		_putchar('\n');
+	} else
+	{
+		int i;
 
-a = 1;
-while (a <= n)
-{
-_putchar('_');
-a++;
+		for (i = 1; i <= n; i++)
+		{
+			_putchar('_');
+		}
+		_putchar('\n');
+	}
+
 }
-_putcher('\n');
-}
-}
+
