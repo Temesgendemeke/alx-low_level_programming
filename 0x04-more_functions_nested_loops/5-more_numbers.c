@@ -1,19 +1,23 @@
 #include "main.h"
 /**
- * more_numbers - print integers from 1 to 14.
+ * print_line - draws a straight line
+ * @n: number of times the character "_"printed
  */
-void more_numbers(void)
+void print_line(int n)
 {
-int a, b;
+	if (n <= 0)
+	{
+		_putchar('\n');
+	} else
+	{
+		int i;
 
-for (a = 1; a <= 10; a++)
-{
-for (b = 0; b <= 14; b++)
-{
-if (b >= 10)
-_putchar('1');
-_putchar (b % 10 + '0');
+		for (i = 1; i <= n; i++)
+		{
+			_putchar('_');
+		}
+		_putchar('\n');
+	}
+
 }
-_putchar('\n');
-}
-}
+
