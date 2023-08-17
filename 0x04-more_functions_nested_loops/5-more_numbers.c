@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * more_numbers: - 'prints a number from 1 to 14.' 
- * Return: Always 0.
-*/
+ * more_numbers - print integers from 1 to 14.
+ */
 void more_numbers(void)
 {
 int a, b;

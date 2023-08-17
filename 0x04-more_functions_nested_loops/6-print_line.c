@@ -19,7 +19,6 @@ while (a <= n)
 _putchar('_');
 a++;
 }
-}
 _putcher('\n');
 }
-
+}
