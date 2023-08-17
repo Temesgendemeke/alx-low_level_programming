@@ -8,10 +8,10 @@ void print_numbers(void)
 int n;
 
 n = 0;
-while(n < 10)
+while (n < 10)
 {
 _putchar(48 + n);
-n++
+n++;
 }
 _putchar('\n');
 return (0);
