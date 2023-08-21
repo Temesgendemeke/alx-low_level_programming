@@ -2,7 +2,8 @@
 #include <stdio.h>
 /**
  * reset_to_98 - update anyvalue to 98
- * @n: the pointer 
+ * @n: the pointer.
+ *
  */
 void reset_to_98(int *n)
 {
