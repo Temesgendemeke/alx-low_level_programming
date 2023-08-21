@@ -19,11 +19,3 @@ _putchar (str[i]);
 }
 _putchar('\n');
 }
-int main(void)
-{
-    char *str;
-
-    str = "Holberton!";
-    puts2(str);
-    return (0);
-}
