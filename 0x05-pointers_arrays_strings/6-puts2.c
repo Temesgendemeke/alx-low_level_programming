@@ -15,9 +15,9 @@ j++;
 k = j - 1;
 for (i = 0; i < k; i += 2)
 {
-putchar (str[i]);
+_putchar (str[i]);
 }
-putchar('\n');
+_putchar('\n');
 }
 int main(void)
 {
