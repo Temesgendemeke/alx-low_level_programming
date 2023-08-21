@@ -6,12 +6,10 @@
  */
 void _puts(char *str)
 {
-char str[] = "temu";
 int i = 0;
 
 while (str[i] != '\0')
 {
-putchar(str[i]);
 i++;
 }
 putchar('\n');
