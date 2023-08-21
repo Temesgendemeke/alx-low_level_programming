@@ -13,7 +13,9 @@ while (s[i] != '\0')
 i++;
 }
 
-int j = i - 1;
+int j; 
+
+j = i - 1;
 
 while (s[j] != '\0')
 {

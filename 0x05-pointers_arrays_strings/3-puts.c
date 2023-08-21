@@ -10,8 +10,9 @@ int i = 0;
 
 while (str[i] != '\0')
 {
+_putchar(str[i]);
 i++;
 }
-putchar('\n');
+_putchar('\n');
 return (i);
 }
