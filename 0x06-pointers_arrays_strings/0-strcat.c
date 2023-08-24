@@ -7,14 +7,21 @@
  */
 char *_strcat(char *dest, char *src)
 {
-char* ptr = dest;
-while (*ptr != '\0') {
-ptr++;
+int i, j = 0;
+
+while (dest[i] != '\0')
+{
+i++;
 }
-while (*src != '\0') {
-*ptr = *src;
-ptr++;
-src++;
+
+while (src[j] != '\0' && i < 97)
+{
+dest[i] = src[j];
+i++;
+j++;
+
 }
-*ptr = '\0';
+
+dest[i] = '\0';
+return (dest);
 }
