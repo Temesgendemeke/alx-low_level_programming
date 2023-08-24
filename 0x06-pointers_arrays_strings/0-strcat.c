@@ -1,27 +1,30 @@
 #include "main.h"
 /**
  * _strcat - concatenates two strings
- * @dest: destination
- * @src : source
- * Return: the length of the string
+ * @dest: input value
+ * @src: input value
+ *
+ * Return: void
  */
 char *_strcat(char *dest, char *src)
 {
-int i, j = 0;
+	int i;
+	int j;
 
-while (dest[i] != '\0')
-{
-i++;
+	i = 0;
+	while (dest[i] != '\0')
+	{
+		i++;
+	}
+	j = 0;
+	while (src[j] != '\0')
+	{
+		dest[i] = src[j];
+		i++;
+		j++;
+	}
+
+	dest[i] = '\0';
+	return (dest);
 }
 
-while (src[j] != '\0' && i < 97)
-{
-dest[i] = src[j];
-i++;
-j++;
-
-}
-
-dest[i] = '\0';
-return (dest);
-}
