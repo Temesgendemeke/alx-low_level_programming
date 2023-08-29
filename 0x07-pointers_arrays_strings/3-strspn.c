@@ -2,7 +2,7 @@
 /**
  * _strspn - a function that gets the length of a prefix substring.
  * @s: char to be counted
- * *accept: char to be checked if exist
+ * @accept: char to be checked if exist
  * Return: return length of char
  */
 unsigned int _strspn(char *s, char *accept)
