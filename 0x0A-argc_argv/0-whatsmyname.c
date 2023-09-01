@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * main - prints its name, followed by a new line.
@@ -5,15 +6,9 @@
  * @argv[] : array vector
  * Return: 0(SUCEESS) always;
  */
-int main(int argc, char* argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-int i;
-for(i = 0; i < argc; i++)
-{
-_putchar(argv[i]);
-}
-_putchar('\0');
-return (0);
-}
+	printf("%s\n", *argv);
 
-
+	return (0);
+}
