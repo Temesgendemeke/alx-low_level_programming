@@ -17,13 +17,23 @@ return (NULL);
 
 newNode->n = n;
 newNode->next = NULL;
+if (idx == 0) 
+{
+    newNode->next = *head;
+    *head = newNode;
+    return (newNode);
+}
 
-idx--;
-while (idx > 0)
+while (current != NULL && idx > 1)
 {
 current = current->next;
 idx--;
 }
+if (current == NULL || idx > 1) 
+{
+    return NULL;
+}
+
 newNode->next = current->next;
 current->next = newNode;
 return (newNode);
