@@ -9,11 +9,12 @@ all: $(OBJ)
 
 clean: 
 	$(RM) $(NAME) *~ *.swp
-oclean:
-	$(RM) $(OBJ)
 
-fclean: 
-	$(RM) $(NAME) $(OBJ) *~ *.swp 
-re: oclean all
+oclean:
+	$(RM) ${OBJ}
+
+fclean: clean oclean
+
+re: all
 
 
