@@ -1,8 +1,11 @@
 #include "search_algos.h"
-
-
-
-
+/*
+ * adavanced_binary - searches for a value in a sorted array of integer
+ * @array: pointer to first element
+ * @size: length of the array
+ * @value: target value to be searched
+ * Return: index of value, -1 if not found
+ * */
 int advanced_binary(int *array, size_t size, int value)
 {
     if (array == NULL || size == 0) {
